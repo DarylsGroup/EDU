@@ -1,7 +1,8 @@
 {
   "name": "education-academia",
+  "homepage" : "https://DarylsGroup.github.io/ReactApp",
   "version": "0.1.0",
-  "private": true,
+  "private": true,  
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -21,9 +22,12 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" ,
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,5 +53,8 @@
   "description": "Project Demo : https://scintillating-smakager-860376.netlify.app/",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
 }
