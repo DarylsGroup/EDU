@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ReactApp/static/css/main.de1c40f2.css",
+    "main.js": "/ReactApp/static/js/main.d06206c6.js",
+    "static/media/back.webp": "/ReactApp/static/media/back.93d3f802b480eeabae07.webp",
+    "static/media/awrapper.webp": "/ReactApp/static/media/awrapper.031ce77a398171427673.webp",
+    "static/media/bg.webp": "/ReactApp/static/media/bg.baa1024a4ae092566a75.webp",
+    "index.html": "/ReactApp/index.html",
+    "main.de1c40f2.css.map": "/ReactApp/static/css/main.de1c40f2.css.map",
+    "main.d06206c6.js.map": "/ReactApp/static/js/main.d06206c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de1c40f2.css",
+    "static/js/main.d06206c6.js"
+  ]
+}

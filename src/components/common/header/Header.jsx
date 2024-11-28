@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Head from "./Head";
 import "./header.css";
-import "./CertificatePopup.css"; // Import the CSS for the popup
+import "./CertificatePopup.css";
 
 const Header = () => {
   const [click, setClick] = useState(false);
-  const [isPopupOpen, setIsPopupOpen] = useState(false); // State for popup visibility
+  const [isPopupOpen, setIsPopupOpen] = useState(false); 
 
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
